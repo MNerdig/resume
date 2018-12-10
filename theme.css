@@ -1,0 +1,53 @@
+.intro {
+        font-family: 'Noto Serif JP', sans-serif;
+        }
+
+.text { 
+        color: #717070;
+        font-family: 'Roboto', sans-serif;
+        }
+
+.ital {
+        color: #717070 ;
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+
+        }
+.skull { position:fixed;
+         right: 0px; 
+
+}
+@media(min-width: 468px) {
+        .container-1, .container-2 {
+            display: flex;
+            /* align items: stetch; */
+            /* align items: center; */
+            /* align items: column; */
+            
+        }
+        .container-2 {
+            justify-content: space-around;
+        }
+        .container-1 div, .container-2 div{
+            border: 1px #ccc solid;
+            padding: 10px;
+        }
+        .box-1{
+            flex: 1;
+        }
+        .box-2{
+           flex: 1;
+        }
+        .box-3{
+           flex: 1;
+        }
+        .box-4{
+            flex-basis: 30%;
+        }
+        .box-5{
+            flex-basis: 30%;
+        }
+        .box-6{
+            flex-basis: 30%;
+        }
+    }
